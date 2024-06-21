@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GsantyTS2.Vistas.vLogin"
+             Title="vLogin">
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+        
+        <Label 
+            Text="LOGIN"
+            HorizontalTextAlignment="Center"
+            FontSize="20"
+            FontAttributes="Bold"/>
+        <Image Source="icon_login.png"
+               HeightRequest="100"/>
+        <Label Text="Usuario" Margin="15,10"/>
+        <Entry x:Name="txtUsuario"
+               Placeholder="Ingrese Usuario"/>
+        <Label Text="Contraseña" Margin="15,10"/>
+        <Entry x:Name="txtContraseña"
+               Placeholder="Ingrese la Contraseña"
+               IsPassword="True"/>
+        <Button x:Name="btnInicio"
+                Text="INGRESAR"
+                Clicked="btnInicio_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

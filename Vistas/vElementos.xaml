@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GsantyTS2.Vistas.vElementos"
+             Title="vElementos">
+    <ScrollView Margin="20">
+        <StackLayout>
+            <Label 
+            Text="UISRAEL"
+            FontAttributes="Bold"
+            TextColor="Black"
+            FontSize="22"
+            HorizontalTextAlignment="Center"/>
+            <Picker x:Name="pkAlumnos"
+                    Title="ALUMNOS"
+                    SelectedIndexChanged="pkAlumnos_SelectedIndexChanged">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Juan Perez</x:String>
+                        <x:String>Marta Suarez</x:String>
+                        <x:String>Marco Mora</x:String>
+                        <x:String>Carlos Lopez</x:String>
+                        <x:String>Andre Chavez</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Label
+                Text="Nota 1"
+                TextColor="Black"
+                FontSize="18"
+                HorizontalTextAlignment="Center"/>
+            <Label Text="Nota1" Margin="15,10"/>
+            <Entry
+                x:Name="txtNota1"
+                 Keyboard="Numeric"
+                Placeholder="Ingrese la primera nota"/>
+            <Label Text="Nota 2" Margin="15,10"/>
+            <Entry
+                x:Name="txtNota2"
+                Keyboard="Numeric"
+                Placeholder="Ingrese la segunda nota"/>
+            <Label Text="Seguimiento 1" Margin="15,10"/>
+            <Entry
+                x:Name="txtFinal1"
+                Keyboard="Numeric"
+                Placeholder="Nota final 1"/>
+            <Button x:Name="btnFinal1"
+                    Text="Seguimiento 1"
+                    Clicked="btnFinal1_Clicked"/>
+
+            <Label Text="Nota 1" Margin="15,10"/>
+            <Entry
+                x:Name="txtNota1S2"
+                Keyboard="Numeric"
+                Placeholder="Ingrese la nota"/>
+            <Label Text="Nota 2" Margin="15,10"/>
+            <Entry
+                x:Name="txtNota2S2"
+                Keyboard="Numeric"
+                Placeholder="Ingrese la segunda nota"/>
+            <Label Text="Seguimiento 2" Margin="15,10"/>
+            <Entry
+                x:Name="txtFinal2"
+                Keyboard="Numeric"
+                Placeholder="Nota final 2"/>
+            <Button x:Name="btnFinal2"
+                    Text="Seguimiento 1"
+                    Clicked="btnFinal2_Clicked"/>
+            <Label x:Name="Resultado"
+                   Text="Resultado"/>
+            <Label Text="NOTA FINAL" Margin="15,10"/>
+
+            <Entry
+                x:Name="txtFinal"
+                Placeholder="Nota Final 2"/>
+            <Label Text="ESTADO" Margin="15,10"/>
+
+            <Entry
+                x:Name="txtEstado"
+                Placeholder="Estado"/>
+
+            <DatePicker x:Name="dpFecha"
+                        MinimumDate="{Binding MinDate}"
+                        MaximumDate="{Binding SelectedDate}"/>
+
+            <Button x:Name="btnEstado"
+                    Text="ESTADO"
+                    Clicked="btnEstado_Clicked"
+                    Margin="60"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

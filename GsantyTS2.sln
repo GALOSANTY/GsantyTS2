@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GsantyTS2", "GsantyTS2.csproj", "{DF4C2B17-D763-424C-B868-A24115E6FE4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF4C2B17-D763-424C-B868-A24115E6FE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4C2B17-D763-424C-B868-A24115E6FE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4C2B17-D763-424C-B868-A24115E6FE4D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DF4C2B17-D763-424C-B868-A24115E6FE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4C2B17-D763-424C-B868-A24115E6FE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4C2B17-D763-424C-B868-A24115E6FE4D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41C90F1F-BC54-4D7B-AAC8-665AD4890038}
+	EndGlobalSection
+EndGlobal
