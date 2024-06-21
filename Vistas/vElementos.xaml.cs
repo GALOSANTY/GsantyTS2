@@ -26,7 +26,7 @@ public partial class vElementos : ContentPage
         {
             DisplayAlert("Error", "Introduce un valor valido", "OK");
         }
-        if(Int32.TryParse(txtFinal2.Text, out int examen1))
+        if(Int32.TryParse(txtNota2.Text, out int examen1))
         {
             if(examen1>valorMaximo)
             {
